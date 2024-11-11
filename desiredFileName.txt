@@ -1,0 +1,6 @@
+{
+  "es": [
+    "email_is_invalid",
+    "my_account_add_birthday"
+  ]
+}

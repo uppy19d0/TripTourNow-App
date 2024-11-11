@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="Untitled-Page%201" viewBox="0 0 120 120" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="120px" height="120px"
+>
+	<g id="Layer%201">
+		<g>
+			<path id="Ellipse" d="M 0 60 C 0 26.8624 26.8625 0 60 0 C 93.1375 0 120 26.8624 120 60 C 120 93.1376 93.1375 120 60 120 C 26.8625 120 0 93.1376 0 60 Z" fill="#627eea"/>
+			<g>
+				<path d="M 59.2235 81.1573 L 59.2235 105.4054 L 89.1892 63.1284 L 59.2235 81.1573 Z" fill="#c1ccf6"/>
+				<path d="M 88.0393 61.0748 L 59.2235 12.973 L 59.2235 47.9491 L 88.0393 61.0748 Z" fill="#c1ccf6"/>
+				<path d="M 59.2235 47.9373 L 59.2235 77.7855 L 87.8045 60.9712 L 59.2235 47.9373 Z" fill="#8198ee"/>
+				<path d="M 30.4189 61.0748 L 59.23 12.973 L 59.23 47.9491 L 30.4189 61.0748 Z" fill="#ffffff"/>
+				<path d="M 59.23 47.9373 L 59.23 77.7855 L 30.5714 60.9712 L 59.23 47.9373 Z" fill="#c1ccf6"/>
+				<path d="M 59.1526 81.1573 L 59.1526 105.4054 L 29.1892 63.1284 L 59.1526 81.1573 Z" fill="#ffffff"/>
+			</g>
+		</g>
+	</g>
+</svg>
