@@ -1,21 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:provider/provider.dart';
-
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:trip_tour_coin/l10n/L10n.dart';
 import 'package:trip_tour_coin/providers/auth_provider.dart';
 import 'package:trip_tour_coin/router/router.dart';
 import 'package:trip_tour_coin/services/alerts_service.dart';
 import 'package:trip_tour_coin/services/navigation_service.dart';
 import 'package:trip_tour_coin/theme.dart';
-import 'package:trip_tour_coin/ui/layouts/auth_layout.dart';
-import 'package:trip_tour_coin/ui/layouts/core_layaout.dart';
-import 'package:trip_tour_coin/ui/layouts/splash/splash_layout.dart';
 
 import 'api/HttpApi.dart';
-import 'l10n/L10n.dart';
+// import 'l10n/L10n.dart';
 import 'providers/locale_provider.dart';
 import 'providers/ui_provider.dart';
 import 'services/local_storage.dart';
@@ -69,7 +66,8 @@ class MyApp extends StatelessWidget {
         builder: (context, widget) {
           ScreenUtil.init(context);
           return MediaQuery(
-            data: MediaQuery.of(context).copyWith(textScaleFactor: 1.0),
+            data: MediaQuery.of(context)
+                .copyWith(textScaler: TextScaler.linear(1.0)),
             child: widget!,
           );
         },

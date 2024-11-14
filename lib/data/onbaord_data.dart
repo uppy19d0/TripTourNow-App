@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 import '../generated/assets.dart';
 import '../utils/custom_color.dart';
 import '../utils/strings.dart';
@@ -8,23 +7,22 @@ import '../widgets/onboard_widget/onboard_widget.dart';
 
 List<OnboardWidget> onboardData = [
   OnboardWidget(
-    
     bgColor: CustomColor.whiteColor,
-    img: Assets.onboard1,
+    img: Assets.tripTourCoinAssetsUser, // Assets.onboard1,
     text1: Strings.easyFast,
     text2: Strings.trusted,
     text3: Strings.userTransferMoney,
   ),
-   const OnboardWidget(
-     bgColor: CustomColor.primaryColor,
-    img: Assets.onboard2,
+  const OnboardWidget(
+    bgColor: CustomColor.primaryColor,
+    img: Assets.tripTourCoinAssetsUser, // Assets.onboard2,
     text1: Strings.qrTransaction,
     text2: Strings.system,
     text3: Strings.userCanTransgerMoney,
   ),
-   const OnboardWidget(
-     bgColor: Color(0xFF5200FF),
-    img: Assets.onboard3,
+  const OnboardWidget(
+    bgColor: Color(0xFF5200FF),
+    img: Assets.tripTourCoinAssetsUser, // Assets.onboard3,
     text1: Strings.biometricFacelock,
     text2: Strings.available,
     text3: Strings.useSecureInstant,

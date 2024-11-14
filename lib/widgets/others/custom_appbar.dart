@@ -6,7 +6,7 @@ import '../../utils/dimensions.dart';
 import '../button_widget/back_button_widget.dart';
 
 // ignore: must_be_immutable
-class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
+class CustomAppBar extends StatelessWidget {
   @override
   final Size preferredSize;
   final Color bgColor;
@@ -15,12 +15,12 @@ class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
   final bool centerTitle;
   final bool alwaysShowBackButton;
   final double elevation;
-  
+
   CustomAppBar({
     Key? key,
     required this.title,
-    this.elevation=2,
-    this.bgColor=CustomColor.whiteColor,
+    this.elevation = 2,
+    this.bgColor = CustomColor.whiteColor,
     this.actions,
     this.centerTitle = false,
     this.alwaysShowBackButton = true,

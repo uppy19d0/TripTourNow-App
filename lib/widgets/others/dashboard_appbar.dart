@@ -5,14 +5,14 @@ import '../../utils/custom_color.dart';
 import '../../utils/dimensions.dart';
 
 // ignore: must_be_immutable
-class DashboardAppBar extends StatelessWidget with PreferredSizeWidget {
+class DashboardAppBar extends StatelessWidget {
   @override
   final Size preferredSize;
 
   final String title;
   List<Widget>? actions;
   final Widget ledeaing;
- final bool? centerTitle;
+  final bool? centerTitle;
   final double elevation;
 
   DashboardAppBar({
@@ -20,15 +20,15 @@ class DashboardAppBar extends StatelessWidget with PreferredSizeWidget {
     required this.ledeaing,
     required this.title,
     this.elevation = 0,
-    this.actions,  
-    this.centerTitle=true,
+    this.actions,
+    this.centerTitle = true,
   })  : preferredSize = const Size.fromHeight(50.0),
         super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      leading:ledeaing,
+      leading: ledeaing,
       title: Text(
         title,
         style: GoogleFonts.poppins(
